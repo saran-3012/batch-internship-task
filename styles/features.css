@@ -1,0 +1,65 @@
+.features{
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.features__container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.features__headerbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.features__box{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.features__innerbox{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#star__4{
+    left: 0;
+}
+
+#ring__4{
+    left: 30px;
+    top: 30px;
+}
+
+#ring__5{
+    left: 60px;
+    top: 0px;
+}
+
+#ring__6{
+    left: 90px;
+    top: -30px;
+}
+
+#iphone__4{
+    max-width: 150%;
+    max-height: 150%;
+    left: 110px;
+    top: -50px;
+}
+
+#spray__3{
+    left: -70px;
+    top: -80px;
+}
+
+#spray__4{
+    z-index: -100;
+    right: -50px;
+}

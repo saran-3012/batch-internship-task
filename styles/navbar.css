@@ -1,0 +1,27 @@
+.navbar{
+    position: sticky;
+    z-index: 100;
+    background-color: var(--clr-light);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.navbar_menu_items{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--clr-dark);
+    transition: all 250ms;
+}
+
+.navbar_menu_items.active{
+    font-weight: 700;
+    color: var(--clr-orange);
+}

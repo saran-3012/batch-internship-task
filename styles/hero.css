@@ -1,0 +1,80 @@
+.hero{
+    padding-top: 5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__container{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.hero__btnbox{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#spray__1{
+    top: -50px;
+    left: 120px;
+    z-index: -100;
+}
+
+.oval_ring{
+    max-width: 40%;
+}
+
+#ring__1{
+    right: -30px;
+    top: 60px;
+}
+
+#ring__2{
+    right: 10px;
+    top: 100px;
+}
+
+#ring__3{
+    right: 50px;
+    top: 150px;
+}
+
+#spray__2{
+    right: 70px;
+    top: 410px;
+}
+
+#iphone__1{
+    right: -25px;
+    top: 100px;
+}
+
+#iphone__2{
+    right: -10px;
+    top: 30px;
+}
+
+#iphone__3{
+    right: 80px;
+    top: -40px;
+}
+
+#star__1{
+    right: 0;
+    top: 0;
+}
+
+#star__2{
+    left: 190px;
+}
+
+#star__3{
+    right: 450px;
+    top: 580px;
+}
