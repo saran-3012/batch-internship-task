@@ -1,0 +1,72 @@
+.download{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.download__container{
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 4px black;
+    overflow: hidden;
+}
+
+.download__box{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    z-index: 1;
+}
+
+#spray__8{
+    left: -200px;
+    top: -100px;
+}
+
+#star__10{
+    left: -30px;
+    top: 200px;
+}
+
+#star__11{
+    right: 0;
+    top: 0;
+}
+
+#spray__9{
+    top: 50px;
+    right: 0;
+}
+
+#rings__5{
+    left: 0;
+    bottom: 0;
+}
+
+#rings__6{
+    right: 0;
+    top: 0;
+}
+
+#star__12{
+    left: 500px;
+    bottom: 100px;
+}
+
+#star__13{
+    right: 400px;
+    top: 50px;
+}
+
+#iphone__group{
+    right: 0;
+}
