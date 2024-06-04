@@ -137,6 +137,22 @@ svg, img{
     color: var(--clr-grey);
 }
 
+.bg-light{
+    background-color: var(--clr-light);
+}
+
+.bg-dark{
+    background-color: var(--clr-dark);
+}
+
+.bg-orange{
+    background-color: var(--clr-orange);
+}
+
+.bg-grey{
+    background-color: var(--clr-grey);
+}
+
 .cptze{
     text-transform: capitalize;
 }
