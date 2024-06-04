@@ -21,6 +21,7 @@ html{
 }
 
 body{
+    width: 100svw;
     background-color: var(--clr-bg);
     overflow-x: hidden;
 }
@@ -167,6 +168,80 @@ svg, img{
     position: absolute;
 }
 
+.visited{
+    /* Animate on Scroll */
+}
+
+.slidein_top{
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+
+.slidein_bottom{
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+
+.slidein_left{
+    transform: translateX(-100px);
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+
+.slidein_right{
+    transform: translateX(100px);
+    opacity: 0;
+    transition: all 500ms ease-in;
+}
+
+.zoomout{
+    transform: scale(0.01);
+    opacity: 0;
+    transition: transform 400ms, opacity 500ms;
+}
+
+.visited .slidein_top, .visited .slidein_bottom, .visited .slidein_left, .visited .slidein_right, .visited .zoomout{
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+}
+
+.transition_delay_zero{
+    transition-delay: 0ms;
+}
+
+.transition_delay_fast{
+    transition-delay: 50ms;
+}
+
+.transition_delay_normal{
+    transition-delay: 100ms;
+}
+
+.transition_delay_slow{
+    transition-delay: 250ms;
+}
+
+.transition_delay_very_slow{
+    transition-delay: 400ms;
+}
+
+.transition_speed_very_fast{
+    transition-duration: 100ms;
+}
+
+.transition_speed_fast{
+    transition-duration: 200ms;
+}
+
+.transition_speed_normal{
+    transition-duration: 300ms;
+}
+
+.transition_speed_slow{
+    transition-duration: 400ms;
+}
 
 @media only screen and (min-width: 475px){
     .container{
