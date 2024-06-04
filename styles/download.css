@@ -12,14 +12,14 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding: 10rem 2rem;
+    padding: 10rem 4rem;
     border-radius: 0.5rem;
     box-shadow: 1px 1px 4px black;
     overflow: hidden;
 }
 
 .download__box{
-    width: 50%;
+    width: 55%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
