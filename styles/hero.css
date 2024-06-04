@@ -26,41 +26,35 @@
     z-index: -100;
 }
 
-.oval_ring{
-    max-width: 40%;
-}
-
-#ring__1{
+#rings__1{
+    max-width: 80%;
+    max-height: 80%;
     right: -30px;
-    top: 60px;
-}
-
-#ring__2{
-    right: 10px;
-    top: 100px;
-}
-
-#ring__3{
-    right: 50px;
-    top: 150px;
+    top: -40px;
 }
 
 #spray__2{
     right: 70px;
-    top: 410px;
+    top: 300px;
 }
 
 #iphone__1{
+    max-width: 75%;
+    max-height: 75%;
     right: -25px;
     top: 100px;
 }
 
 #iphone__2{
+    max-width: 75%;
+    max-height: 75%;
     right: -10px;
     top: 30px;
 }
 
 #iphone__3{
+    max-width: 75%;
+    max-height: 75%;
     right: 80px;
     top: -40px;
 }

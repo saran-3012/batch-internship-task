@@ -32,19 +32,11 @@
     left: 0;
 }
 
-#ring__4{
-    left: 30px;
-    top: 30px;
-}
-
-#ring__5{
-    left: 60px;
-    top: 0px;
-}
-
-#ring__6{
-    left: 90px;
-    top: -30px;
+#rings__2{
+    max-width: 150%;
+    max-height: 150%;
+    left: -50px;
+    top: -100px;
 }
 
 #iphone__4{
