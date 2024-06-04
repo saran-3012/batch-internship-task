@@ -2,8 +2,8 @@
     position: relative;
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
+    margin-top: 12rem;
+    margin-bottom: 9rem;
 }
 
 #advantages{
@@ -29,54 +29,57 @@
 }
 
 #spray__5{
-    right: 10px;
+    right: 200px;
 }
 
 #star__5{
     right: 0;
-    top: 100px;
+    top: -50px;
 }
 
 #star__6{
-    right: 500px;
-    top: 500px;
+    right: 600px;
+    bottom: -100px;
 }
 
 #rings__3{
-    max-width: 110%;
-    max-height: 110%;
-    top: 60px;
+    max-width: 200%;
+    max-height: 200%;
+    top: -150px;
     right: 30px;
 }
 
 #iphone__5{
-    max-width: 140%;
-    max-height: 140%;
-    right: 10px;
-    top: 80px;
+    max-width: 200%;
+    max-height: 200%;
+    right: 40px;
+    top: -100px;
 }
 
 #star__7{
-    right: 300px;
-    top: 450px;
+    right: 200px;
+    bottom: -150px;
 }
 
 #spray__6{
-    left: 0;
+    max-width: 200%;
+    max-height: 200%;
+    left: 20px;
+    bottom: -200px;
 }
 
 #rings__4{
-    max-width: 140%;
-    max-height: 140%;
+    max-width: 280%;
+    max-height: 280%;
     left: -50px;
-    top: -30px;
+    top: -150px;
 }
 
 #iphone__6{
-    max-width: 180%;
-    max-height: 180%;
+    max-width: 280%;
+    max-height: 280%;
     left: 100px;
-    top: 0;
+    top: -100px;
 }
 
 #visa__card{
